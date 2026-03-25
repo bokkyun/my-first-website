@@ -16,7 +16,7 @@ import ScheduleEdit from './pages/ScheduleEdit';
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter basename="/my-first-website">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
